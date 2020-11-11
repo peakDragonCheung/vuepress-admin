@@ -1,0 +1,15 @@
+{
+  "include": ["./**/*.ts"],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    // this enables stricter inference for data properties on `this`
+    "strict": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "paths": {
+      "/src/": ["./src"]
+    }
+  }
+}
